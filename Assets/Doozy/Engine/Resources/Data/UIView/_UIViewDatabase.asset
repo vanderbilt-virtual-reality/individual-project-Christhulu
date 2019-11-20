@@ -18,7 +18,9 @@ MonoBehaviour:
   - Example
   - General
   - MenuTest
+  - PauseMenu
   Categories:
   - {fileID: 11400000, guid: b01e98f4801f7124ba39e1dac4debf90, type: 2}
   - {fileID: 11400000, guid: c8c481a3555f31d4ea30bee240cd210c, type: 2}
   - {fileID: 11400000, guid: 39c67adec9083514186cbcb3691bd575, type: 2}
+  - {fileID: 11400000, guid: 87900a2c3aded7d429d059d23353124e, type: 2}
