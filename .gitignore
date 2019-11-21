@@ -59,5 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 Assets/Resources/OvrAvatarSettings.asset
+Assets/Resources/OvrAvatarSettings.asset.meta
 Assets/Resources/OculusPlatformSettings.asset
 Assets/Resources/OculusPlatformSettings.asset.meta
