@@ -256,6 +256,80 @@ MonoBehaviour:
     AudioClip: {fileID: 0}
     OutputAudioMixerGroup: {fileID: 0}
   SoundAction: 0
+--- !u!114 &-3544824104280615154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97aebf4d1c7c46d9843e5c78fd464d44, type: 3}
+  m_Name: GameEventNode
+  m_EditorClassIdentifier: 
+  ErrorNodeNameIsEmpty: 0
+  ErrorDuplicateNameFoundInGraph: 0
+  m_inputSockets:
+  - m_connectionMode: 1
+    m_connections: []
+    m_connectionPoints:
+    - {x: -2, y: 4}
+    - {x: 202, y: 4}
+    m_direction: 0
+    m_canBeDeleted: 0
+    m_canBeReordered: 0
+    m_curveModifier: 0
+    m_height: 24
+    m_width: 216
+    m_x: 0
+    m_y: 38
+    m_id: 2f553d24-23c8-440a-a504-a146a6b903b0
+    m_nodeId: fe4b224f-1c1a-46ff-991c-6ea5de462cc9
+    m_socketName: InputSocket_0
+    m_value: '{}'
+    m_valueTypeQualifiedName: Doozy.Engine.Nody.Connections.PassthroughConnection,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_outputSockets:
+  - m_connectionMode: 0
+    m_connections: []
+    m_connectionPoints:
+    - {x: -2, y: 4}
+    - {x: 202, y: 4}
+    m_direction: 1
+    m_canBeDeleted: 0
+    m_canBeReordered: 0
+    m_curveModifier: 0
+    m_height: 24
+    m_width: 216
+    m_x: 0
+    m_y: 62
+    m_id: b4c0973b-8b0e-4477-9a1d-2482845e6209
+    m_nodeId: fe4b224f-1c1a-46ff-991c-6ea5de462cc9
+    m_socketName: OutputSocket_0
+    m_value: '{}'
+    m_valueTypeQualifiedName: Doozy.Engine.Nody.Connections.PassthroughConnection,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_nodeType: 4
+  m_allowDuplicateNodeName: 0
+  m_allowEmptyNodeName: 0
+  m_canBeDeleted: 1
+  m_debugMode: 0
+  m_useFixedUpdate: 0
+  m_useLateUpdate: 0
+  m_useUpdate: 0
+  m_height: 152
+  m_width: 216
+  m_x: 552
+  m_y: 384
+  m_minimumInputSocketsCount: 1
+  m_minimumOutputSocketsCount: 1
+  m_graphId: 397a3a52-8490-450a-80f5-18a34dbdfaea
+  m_id: fe4b224f-1c1a-46ff-991c-6ea5de462cc9
+  m_name: Send Game Events
+  m_notes: 
+  ErrorNotSendingAnyGameEvent: 1
+  GameEvent: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,11 +357,12 @@ MonoBehaviour:
   - {fileID: 8852145776506308797}
   - {fileID: 4020603644221941116}
   - {fileID: 3685776334466910728}
+  - {fileID: -3544824104280615154}
   m_isSubGraph: 0
   m_version: 1
   m_description: 
   m_id: 397a3a52-8490-450a-80f5-18a34dbdfaea
-  m_lastModified: 132187714252474468
+  m_lastModified: 132188660193347760
 --- !u!114 &84929783153715340
 MonoBehaviour:
   m_ObjectHideFlags: 1
